@@ -1,4 +1,4 @@
-## Code Book
+# Code Book
 It describes the variables, the data, and any transformations or work that was performed to clean up the data.
 
 ### Identifiers
@@ -39,3 +39,11 @@ It describes the variables, the data, and any transformations or work that was p
 - freq_Body_GyroscopeMag-mean() / StdDev() / meanFreq()   
 - freq_Body_Gyroscope_JerkMagnitude-mean() / StdDev() / meanFreq() 
 
+### Activity Labels
+#### It Shows 6 Steps Levels for Y_Num, One of Identifiers
+- WALKING  (value  1 ): subject was walking during the test
+- WALKING_UPSTAIRS  (value  2 ): subject was walking up a staircase during the test
+- WALKING_DOWNSTAIRS  (value  3 ): subject was walking down a staircase during the test
+- SITTING  (value  4 ): subject was sitting during the test
+- STANDING  (value  5 ): subject was standing during the test
+- LAYING  (value  6 ): subject was laying down during the test
